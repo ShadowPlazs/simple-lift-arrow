@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="RadioMessage" id="E:cVbxB@7g~xALuu~/S}">49434message1</variable><variable type="RadioMessage" id="c3S-Yn0AqTYs1]G/%foP">61268stop</variable></variables><block type="device_button_event" id="iRFnsPP66n@@u8-WwHPl" x="512" y="-56"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id=";:M:#Dhr*HJ=;ZKCD*z)"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="control_wait_us" id="yoR(CqH/ZU}5V/[Y}HM."><value name="micros"><shadow type="math_number_minmax" id="*ITgW4mIYwFDooB*-wz."><mutation min="0" max="6000" label="Micros" precision="0"/><field name="SLIDER">1000</field></shadow></value><next><block type="device_print_message" id="u^ET(5;*A|}cETm0une^"><value name="text"><shadow type="text" id="lp^fm(Q/6zL}rlw6!T06"><field name="TEXT">Going up... Please wait!</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="N@e6X`$_3~B.yu{`CSF[" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="V55ZTcj[#6.Zy3^dwe$b"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="control_wait_us" id="qdFo=8qE0VsJ)Q#b:XL0"><value name="micros"><shadow type="math_number_minmax" id="_)7h,C^{s|*ek$@N9UjB"><mutation min="0" max="6000" label="Micros" precision="0"/><field name="SLIDER">1000</field></shadow></value><next><block type="device_print_message" id="Y~0([-blZyP/IWTtc-8g"><value name="text"><shadow type="text" id="9%RD`KEVL?uiVRONQ!Q:"><field name="TEXT">Going Down... Please wait!</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="OI!W.4yzCd.QUYiY(wJU" x="463" y="550"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="25Z.z%*WxA}b1Nfd8t}S"><field name="LEDS">`
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . #
+        `</field><next><block type="device_print_message" id="cW])2MtE(iu{IE3)C]{S"><value name="text"><shadow type="text" id="dX7Q9q)X=Z)8-yCe84RP"><field name="TEXT">Screen cleared, lift disabled.</field></shadow></value><next><block type="control_wait_us" id="`-*14Cs|X[oli5ut!|Ah"><value name="micros"><shadow type="math_number_minmax" id="qL-RTh3XrERL9sv]pKwt"><mutation min="0" max="6000" label="Micros" precision="0"/><field name="SLIDER">1000</field></shadow></value><next><block type="device_clear_display" id="xUxV%);mA21R+TTh52q."/></next></block></next></block></next></block></statement></block></xml>
